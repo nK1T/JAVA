@@ -50,8 +50,8 @@ public class lec9arrays {
         //     System.out.println("name " + (i+1) +" is : " + names[i]);
         // }
         //Q4.Find the maximum & minimum number in an array of integers. 
-        int size = sc.nextInt();
-        int numbers[] = new int[size];
+        // int size = sc.nextInt();
+        // int numbers[] = new int[size];
 
         //input
         // for(int i=0;i<size;i++){
@@ -86,20 +86,20 @@ public class lec9arrays {
         // System.out.println("minimum: "+min);
 
         //Q5.Take an array of numbers as input and check if it is an array sorted in ascending order.
-        for(int i=0;i<size;i++){
-            numbers[i]=sc.nextInt();
-        }
-        boolean isAscending = true;
+        // for(int i=0;i<size;i++){
+        //     numbers[i]=sc.nextInt();
+        // }
+        // boolean isAscending = true;
          
-        for(int i=0;i<size-1;i++){
-            if(numbers[i]>numbers[i+1]){
-                isAscending = false;
-            }
-        }
-        if(isAscending){
-            System.out.println("Sorted in ascending");
-        }else{
-            System.out.println("Not sorted in ascending");
-        }
+        // for(int i=0;i<size-1;i++){
+        //     if(numbers[i]>numbers[i+1]){
+        //         isAscending = false;
+        //     }
+        // }
+        // if(isAscending){
+        //     System.out.println("Sorted in ascending");
+        // }else{
+        //     System.out.println("Not sorted in ascending");
+        // }
     }
 }

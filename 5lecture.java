@@ -6,9 +6,9 @@ class Main{
         System.out.println("Enter number of rows: ");
         Scanner in1 = new Scanner(System.in);
         int r = in1.nextInt();
-        // System.out.println("Enter number of columns: ");
-        // Scanner in2 = new Scanner(System.in);
-        // int c = in2.nextInt();
+        System.out.println("Enter number of columns: ");
+        Scanner in2 = new Scanner(System.in);
+        int c = in2.nextInt();
          
         // Q1=SOLID RECTANGLE
         // for(int j=0;j<r;j++){
@@ -47,7 +47,7 @@ class Main{
         // }
 
         //Q5=HALF PYRAMID FROM RIGHT SIDE
-        // for(int i=1;i<=r;i++){
+        // for(int i=0;i<=r;i++){
         //     for(int j=1;j<=r-i;j++){
         //         System.out.print(" ");
         //     }
@@ -130,19 +130,19 @@ class Main{
         // }
 
         //Q12=NUMBER PYRAMID
-        // for(int i=1;i<=r;i++){
-        //     for(int j=1;j<=r-i;j++){
-        //         System.out.print(" ");
-        //     }
-
-        //     for(int j=i;j>=1;j--){
-        //         System.out.print(j);
-        //     }
-        //     for(int j=2;j<=i;j++){
-        //         System.out.print(j);
-        //     }
-        //     System.out.println();
-        // }
-
+        for(int i=1;i<=r;i++){
+            for(int j=1;j<=r-i;j++){
+                System.out.print(" ");
             }
+
+            for(int j=i;j>=1;j--){
+                System.out.print(j);
+            }
+            for(int j=2;j<=i;j++){
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+
+        }
 }

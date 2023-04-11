@@ -1,9 +1,9 @@
-import java.util.*;
+// import java.util.*;
 
-public class lec7functions {
+// public class lec7functions {
     //Q1.print my name
     // public static void myName(String name){ //create function
-    //     System.out.println(name+ " ankitis a good boy");
+    //     System.out.println(name+ " is a good boy");
     //     return;
     // }
     // public static void main(String[]args){
@@ -14,9 +14,8 @@ public class lec7functions {
     // }
 
     //Q2. print sum of two numbers
-    // public static int sum(int num1,int num2){
+    // public static void sum(int num1,int num2){
     //     System.out.println("Sum of given two numbers: "+ (num1+num2));
-    //     return 1;
     // }
 
     // public static void main(String[]args){
@@ -48,7 +47,7 @@ public class lec7functions {
     // public static void factorial(int num){
     //     int fact=1;
     //     for(int i=num;i>=1;i--){
-    //         fact = fact*i;
+    //         fact=fact*i;
     //     }
     //     System.out.println("Factorial of given number: " + fact);
     // }
@@ -281,19 +280,19 @@ public class lec7functions {
 
     //Q16.Write a program to print Fibonacci series of n terms where n is input by user :
     // 0 1 1 2 3 5 8 13 21 ..... 
-    //    public static void main(String[]args){
-    //     System.out.println("Enter number of elements: ");
-    //     Scanner sc = new Scanner(System.in);
-    //     int num = sc.nextInt();
+//        public static void main(String[]args){
+//         System.out.println("Enter number of elements: ");
+//         Scanner sc = new Scanner(System.in);
+//         int num = sc.nextInt();
 
-    //     int n1=0,n2=1,n3;
-    //     System.out.print(n1+" "+n2);
-    //     for(int i=2;i<num;i++){
-    //         n3=n1+n2;
-    //         n1=n2;
-    //         n2=n3;
-    //         System.out.print(n3+" ");
-    //     }
-    //    }
-}
+//         int n1=0,n2=1;int n3;
+//         System.out.print(n1+" "+n2);
+//         for(int i=1;i<=num;i++){
+//             n3=n1+n2;
+//             n1=n2;
+//             n2=n3;
+//             System.out.print(" "+n3);
+//         }
+//     }
+// }
 
